@@ -10,6 +10,16 @@ const testPosts = [
   },
   {
     "explanation": "Bu bir test açıklamasıdır",
+    "likeCount": 1520,
+    "name": "Can Kurt",
+    "postImage": ImageRes.p1,
+    "userImage": ImageRes.p1
+  },
+
+
+  
+  {
+    "explanation": "Bu bir test açıklamasıdır",
     "likeCount": 12,
     "name": "İbrahim Uğur",
     "postImage": ImageRes.p2,
