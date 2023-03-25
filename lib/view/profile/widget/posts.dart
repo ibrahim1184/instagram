@@ -16,6 +16,9 @@ class ProfileSharedPosts extends StatelessWidget {
           child: TabBar(
             tabs: [
               SvgPicture.asset(IconRes.square),
+
+
+              
               Icon(Icons.person_3_outlined)
             ],
           ),
