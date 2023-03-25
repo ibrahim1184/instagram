@@ -17,7 +17,8 @@ class ProfileScreen extends StatelessWidget {
     );
   }
 
-  AppBar appBar() {
+  AppBar appBar() { 
+    
     return AppBar(
       elevation: 0,
       backgroundColor: ColorRes.white,

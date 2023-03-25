@@ -15,12 +15,6 @@ const testPosts = [
     "postImage": ImageRes.p1,
     "userImage": ImageRes.p1
   },
-
-
-
-
-
-  
   {
     "explanation": "Bu bir test açıklamasıdır",
     "likeCount": 12,

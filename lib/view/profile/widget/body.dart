@@ -14,7 +14,7 @@ class ProfileBody extends StatelessWidget {
       children: [
         ProfileDetails(),
         ProfileHighlights(),
-        const ProfileSharedPosts()
+          ProfileSharedPosts()
       ],
     );
   }

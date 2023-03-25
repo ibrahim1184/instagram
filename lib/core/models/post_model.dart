@@ -7,6 +7,7 @@ class PostModel {
   String? postImage;
   int? likeCount;
   String? explanation;
+  bool? isLiked;
 
   PostModel({
     this.userImage,
@@ -14,6 +15,7 @@ class PostModel {
     this.postImage,
     this.likeCount,
     this.explanation,
+    this.isLiked,
   });
 
   Map<String, dynamic> toMap() {
@@ -23,6 +25,7 @@ class PostModel {
       'postImage': postImage,
       'likeCount': likeCount,
       'explanation': explanation,
+      'isLiked': isLiked,
     };
   }
 
@@ -34,6 +37,7 @@ class PostModel {
       likeCount: map['likeCount'] != null ? map['likeCount'] as int : null,
       explanation:
           map['explanation'] != null ? map['explanation'] as String : null,
+      isLiked: map['isLiked'] != null ? map['isLiked'] as bool : false,
     );
   }
 
@@ -41,4 +45,9 @@ class PostModel {
 
   factory PostModel.fromJson(String source) =>
       PostModel.fromMap(json.decode(source) as Map<String, dynamic>);
+
+  @override
+  String toString() {
+    return 'PostModel(userImage: $userImage, name: $name, postImage: $postImage, likeCount: $likeCount, explanation: $explanation, isLiked: $isLiked)';
+  }
 }

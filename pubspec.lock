@@ -50,7 +50,7 @@ packages:
     source: hosted
     version: "1.17.0"
   container_tab_indicator:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: container_tab_indicator
       sha256: b0bdd73bb495c31c5711cefa363511b10bb3ebcfc007b603a2599401ebe6b2d9
@@ -103,7 +103,7 @@ packages:
     source: sdk
     version: "0.0.0"
   flutter_easyloading:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: flutter_easyloading
       sha256: ba21a3c883544e582f9cc455a4a0907556714e1e9cf0eababfcb600da191d17c
@@ -111,7 +111,7 @@ packages:
     source: hosted
     version: "3.0.5"
   flutter_lints:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: flutter_lints
       sha256: aeb0b80a8b3709709c9cc496cdc027c5b3216796bc0af0ce1007eaf24464fd4c
@@ -140,7 +140,7 @@ packages:
     source: sdk
     version: "0.0.0"
   get:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: get
       sha256: "2ba20a47c8f1f233bed775ba2dd0d3ac97b4cf32fc17731b3dfc672b06b0e92a"
@@ -148,7 +148,7 @@ packages:
     source: hosted
     version: "4.6.5"
   google_fonts:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: google_fonts
       sha256: "8f099045e2f2a30e4d4d0a35f40c6bc941a8f2ca0e10ad9d214ee9edd3f37483"
@@ -308,7 +308,7 @@ packages:
     source: hosted
     version: "4.2.4"
   sizer:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: sizer
       sha256: d2b3cb6cbc4a637f508dacd786bae55df31e5fc088044248a43e4fd1e050c117
